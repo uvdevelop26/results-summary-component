@@ -19,45 +19,67 @@
 </head>
 
 <body>
-  <main class="card">
-    <div class="card-result">
-      <h1>Your Result</h1>
-      <div>
-        <div>76</div>
-        <small>of 100</small>
+  <div class="container">
+    <main class="card">
+      <div class="card-header">
+        <h1 class="card-header-title">Your Result</h1>
+        <div class="card-header-boll">
+          <div class="card-header-text">
+            <span class="card-header-result">76</span>
+            <small class="card-header-range">of 100</small>
+          </div>
+        </div>
+        <p class="card-title">Great</p>
+        <p class="card-paragraph">You scored higher than 65% of the people who have taken these tests.</p>
       </div>
-      <h2>Great</h2>
-      <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </div>
-    <div>
-      <h2>Summary</h2>
-      <div>
-        <img src="assets/images/icon-reaction.svg" alt="" srcset="">
-        <span>Reaction</span>
-        <span>80 / 100</span>
+      <div class="card-body">
+        <h2 class="card-body-title">Summary</h2>
+        <div class="card-body-group">
+          <div class="card-body-indiv bg-pale-red">
+            <div class="card-body-cont">
+              <img src="" alt="ray" class="icon">
+              <span class="role"></span>
+            </div>
+            <div class="card-body-indiv-sub">
+              <span class="score"></span> <span class="top-range">/ 100</span>
+            </div>
+          </div>
+          <div class="card-body-indiv bg-pale-yellow">
+            <div class="card-body-cont">
+              <img src="" alt="brain" class="icon">
+              <span class="role"></span>
+            </div>
+            <div class="card-body-indiv-sub">
+              <span class="score"></span> <span class="top-range">/ 100</span>
+            </div>
+          </div>
+          <div class="card-body-indiv bg-pale-green">
+            <div class="card-body-cont">
+              <img src="" alt="dialog" class="icon">
+              <span class="role"></span>
+            </div>
+            <div class="card-body-indiv-sub">
+              <span class="score"></span> <span class="top-range">/ 100</span>
+            </div>
+          </div>
+          <div class="card-body-indiv bg-pale-indigo">
+            <div class="card-body-cont">
+              <img src="" alt="eye" class="icon">
+              <span class="role"></span>
+            </div>
+            <div class="card-body-indiv-sub">
+              <span class="score"></span> <span class="top-range">/ 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="card-footer-button">Continue</button>
+        </div>
       </div>
-      <div>
-        <img src="assets/images/icon-memory.svg" alt="" srcset="">
-        <span>Memory</span>
-        <span>92 / 100</span>
-      </div>
-      <div>
-        <img src="assets/images/icon-verbal.svg" alt="" srcset="">
-        <span>Verbal</span>
-        <span>61 / 100</span>
-      </div>
-      <div>
-        <img src="assets/images/icon-visual.svg" alt="" srcset="">
-        <span>Visual</span>
-        <span>72 / 100</span>
-      </div>
-      <div>
-        <button>Continue</button>
-      </div>
-    </div>
+    </main>
+  </div>
 
-  </main>
-
+  <script src="js/data.js"></script>
   <!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
